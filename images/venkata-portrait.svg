@@ -1,0 +1,17 @@
+<svg width="420" height="420" viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder artwork</title>
+  <desc id="desc">Abstract warm-toned geometric illustration used as a placeholder portrait.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8D6BF"/>
+      <stop offset="1" stop-color="#C7744A"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="420" fill="url(#bg)"/>
+  <circle cx="210" cy="168" r="88" fill="#F6EADA" opacity="0.92"/>
+  <rect x="115" y="255" width="190" height="110" rx="40" fill="#A54A2E" opacity="0.88"/>
+  <path d="M108 155 C145 101 182 83 210 83 C240 83 278 102 312 156" stroke="#7C2D1F" stroke-width="10" fill="none"/>
+  <path d="M150 170 C165 186 178 191 190 191 C201 191 212 187 226 170" stroke="#6D3F28" stroke-width="5" fill="none"/>
+  <path d="M194 210 C202 216 218 216 226 210" stroke="#6D3F28" stroke-width="4" fill="none"/>
+  <text x="210" y="390" text-anchor="middle" font-family="Trebuchet MS, sans-serif" font-size="34" fill="#FAF4E8" letter-spacing="4">VENKATA</text>
+</svg>

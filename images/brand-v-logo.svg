@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">V logo mark</title>
+  <desc id="desc">Circular emblem with an artistic V shape.</desc>
+  <circle cx="32" cy="32" r="30" fill="#f2c9ae" />
+  <path d="M15 18 L28 50 L36 30 L45 50 L49 42 L37 14 L29 34 L23 18 Z" fill="#8d3922" />
+</svg>

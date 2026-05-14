@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venkata | Artist Portfolio</title>
+    <meta
+      name="description"
+      content="Official artist page for Venkata featuring biography, career highlights, and upcoming shows."
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Structured data for search engines -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "#venkata",
+            "name": "Venkata",
+            "jobTitle": "Visual Artist",
+            "description": "Venkata is a contemporary artist whose work explores memory, movement, and place.",
+            "url": "https://example.com/venkata"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Shifting Light Series",
+            "creator": {
+              "@id": "#venkata"
+            },
+            "genre": "Contemporary Art"
+          },
+          {
+            "@type": "Event",
+            "name": "Monsoon Lines",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "location": {
+              "@type": "Place",
+              "name": "Riverfront Art Hall",
+              "address": "New York, NY"
+            },
+            "organizer": {
+              "@id": "#venkata"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- Site header and primary navigation -->
+    <header class="site-header" id="top">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Venkata home">
+          <img class="brand-mark" src="images/brand-v-logo.svg" alt="" width="32" height="32" />
+          <span>Venkata</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#career">Career</a></li>
+          <li><a href="#shows">Upcoming Shows</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="panel hero" aria-labelledby="welcome-title">
+        <div class="content-wrap">
+          <p class="eyebrow">Welcome</p>
+          <h1 id="welcome-title">Welcome to Venkata's world of color and rhythm</h1>
+          <p class="lede">Every canvas is a conversation between memory and motion. Explore the story, milestones, and upcoming moments.</p>
+          <p class="hero-links" aria-label="Main page section links">
+            <a href="#about">Statement</a>
+            <span aria-hidden="true">•</span>
+            <a href="#career">Milestones</a>
+            <span aria-hidden="true">•</span>
+            <a href="#shows">Upcoming Events</a>
+          </p>
+          <a class="cta" href="#shows">See upcoming shows</a>
+        </div>
+      </section>
+
+      <section class="panel" id="about" aria-labelledby="about-title">
+        <article class="content-grid">
+          <div>
+            <p class="eyebrow">About Me</p>
+            <h2 id="about-title">Artist statement</h2>
+            <p>I am Venkata, a multidisciplinary artist focused on abstract storytelling. My practice blends layered textures, calligraphic marks, and field notes from daily life.</p>
+            <p>Through mixed media works, I explore the tension between quiet landscapes and urban movement, creating pieces that invite slow, reflective viewing.</p>
+          </div>
+          <figure class="portrait">
+            <img src="images/venkata-portrait.svg" alt="Illustrated portrait placeholder for artist Venkata" width="420" height="420" />
+            <figcaption>Studio portrait study</figcaption>
+          </figure>
+        </article>
+      </section>
+
+      <section class="panel" id="career" aria-labelledby="career-title">
+        <article class="content-wrap">
+          <p class="eyebrow">Career</p>
+          <h2 id="career-title">Selected milestones</h2>
+          <ul class="timeline">
+            <li>
+              <span class="year">2018</span>
+              <span>Debut group exhibition, Hyderabad Art Circuit.</span>
+            </li>
+            <li>
+              <span class="year">2021</span>
+              <span>Residency at Coastal Contemporary Labs.</span>
+            </li>
+            <li>
+              <span class="year">2024</span>
+              <span>Solo showcase "Shifting Light" with 24 new works.</span>
+            </li>
+            <li>
+              <span class="year">2026</span>
+              <span>Commissioned mural and public workshop series.</span>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="panel" id="shows" aria-labelledby="shows-title">
+        <article class="content-wrap">
+          <p class="eyebrow">Upcoming Shows</p>
+          <h2 id="shows-title">Where to experience the work next</h2>
+          <ul class="show-list" aria-label="Upcoming events">
+            <li>
+              <article class="show-card">
+                <h3>Monsoon Lines</h3>
+                <p><strong>Date:</strong> July 12, 2026</p>
+                <p><strong>Venue:</strong> Riverfront Art Hall, New York, NY</p>
+              </article>
+            </li>
+            <li>
+              <article class="show-card">
+                <h3>Memory in Motion</h3>
+                <p><strong>Date:</strong> September 03, 2026</p>
+                <p><strong>Venue:</strong> East Gallery, Chicago, IL</p>
+              </article>
+            </li>
+            <li>
+              <article class="show-card">
+                <h3>Night Studio Open House</h3>
+                <p><strong>Date:</strong> November 21, 2026</p>
+                <p><strong>Venue:</strong> Venkata Studio, Los Angeles, CA</p>
+              </article>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Venkata Studio | Contact: hello@venkata.art</p>
+      <p class="copyright">Copyright © 2026 Venkata. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
